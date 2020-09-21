@@ -11,24 +11,25 @@ def remove_third_char(string: str) -> str:
 
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
-    if old_char in string
+    if old_char in string:
         
     return ""
 
 
 def get_nb_char(string: str, char: str) -> int:
     occurence = 0
-    for letter in string
+    for letter in string::
         if char == letter
             occurence += 1
     return occurence
 
 
 def get_nb_words(sentence: str) -> int:
-    for letter in sentence
-        if ' ' == letter
-            
-    return 
+    occurence = 1
+    for letter in sentence:
+        if ' ' == letter:
+            occurence += 1
+    return occurence
 
 
 def main() -> None:
